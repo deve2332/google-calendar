@@ -1,3 +1,6 @@
+@import'./task-cell.css';
+@import './task.css';
+
 .calendar {
     --minBlockSize: 3rem;
     --maxBlockSize: auto;

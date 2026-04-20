@@ -1,0 +1,17 @@
+.taskCell {
+    padding: 0.25rem;
+    border-inline-start: 1px solid var(--gray20);
+    border-block-end: 1px solid var(--gray20);
+}
+
+.taskCell.is-active::before {
+    content: 'Sin Título';
+    font: var(--body2-regular);
+    color: var(--white);
+    background: var(--blue20);
+    display: block;
+    padding-inline: .5rem;
+    padding-block: 0.25rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.4);
+}
