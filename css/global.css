@@ -1,0 +1,27 @@
+:root {
+    --white: #FFFFFE;
+    --gray50: #222222;
+    --gray40: #3C4043;
+    --gray30: #70757A;
+    --gray20: #DADCE0;
+    --gray10: #F1F3F4;
+    --blue10: #1A73E8;
+    --blue20: #039BE5;
+    --blue30: #1967D2;
+    --red: #E8453C;
+    --green10: #33B679;
+    --baseFontFamily: "Google Sans", sans-serif;
+    --body1-regular: 400 0.875rem/1.25rem var(--baseFontFamily);
+    --body1-medium: 500 0.875rem/1.25rem var(--baseFontFamily);
+    --body2-regular: 400 0.75rem/1rem var(--baseFontFamily);
+    --body2-medium: 500 0.75rem/1rem var(--baseFontFamily);
+    --body3-regular: 400 0.625rem/0.5rem var(--baseFontFamily);
+    --body3-medium: 500 0.625rem/0.5rem var(--baseFontFamily);
+    --button-button: 500 0.875rem/1rem var(--baseFontFamily);
+    --subtitle-subtitle1: 400 1.375rem/1.75rem var(--baseFontFamily);
+}
+
+.body {
+    font: var(--body1-regular);
+    margin: 0;
+}
