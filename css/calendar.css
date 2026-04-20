@@ -1,5 +1,6 @@
 @import'./task-cell.css';
 @import './task.css';
+@import './calendar-day.css';
 
 .calendar {
     --minBlockSize: 3rem;
@@ -10,6 +11,7 @@
 }
 
 .calendar-week {
+    color: var(--gray30);
     min-block-size: 43.75rem;
     display: grid;
     grid-template-columns: auto repeat(7, minmax(var(--minInlineSize), var(--maxInlineSize)));
