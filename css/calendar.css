@@ -2,6 +2,8 @@
 @import './task.css';
 @import './calendar-day.css';
 @import './timezone-cell.css';
+@import './hour-cell.css';
+@import './current-time.css';
 
 .calendar {
     --minBlockSize: 3rem;
@@ -9,6 +11,7 @@
     --minInlineSize: 5rem;
     --maxInlineSize: 1fr;
     padding-inline: 1.5rem;
+    position: relative;
 }
 
 .calendar-week {

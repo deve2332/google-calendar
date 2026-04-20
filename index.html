@@ -19,6 +19,7 @@
         <header class="header"></header>
         <div class="sidebar"></div>
         <main class="calendar">
+            <div class="currentTime"></div>
             <div class="calendar-week">
                 <div class="timezoneCell">GMT-5</div>
                 <h2 class="calendarDay">
@@ -84,7 +85,7 @@
                         </time>
                     </a>
                 </h2>
-                <span>1:00</span>
+                <span class="hourCell"></span>
                 <div class="taskCell">
                     <div tabindex="0" class="task" aria-label="De 17:00 - 18:00, Hacer ejercicio">
                         <p>Hacer ejercicio</p>
@@ -100,7 +101,7 @@
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
-                <span class="hourCell"></span>
+                <span class="hourCell">1 AM</span>
                 <div class="taskCell is-active"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
@@ -108,7 +109,7 @@
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
-                <span class="hourCell"></span>
+                <span class="hourCell">2 AM</span>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
@@ -116,7 +117,7 @@
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
-                <span class="hourCell"></span>
+                <span class="hourCell">3 AM</span>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
@@ -124,7 +125,7 @@
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
-                <span class="hourCell"></span>
+                <span class="hourCell">4 AM</span>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
@@ -132,7 +133,7 @@
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
-                <span class="hourCell"></span>
+                <span class="hourCell">5 AM</span>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
@@ -140,7 +141,7 @@
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
-                <span class="hourCell"></span>
+                <span class="hourCell">6 AM</span>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
@@ -148,7 +149,7 @@
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
-                <span class="hourCell"></span>
+                <span class="hourCell">7 AM</span>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
@@ -156,7 +157,7 @@
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
-                <span class="hourCell"></span>
+                <span class="hourCell">8 AM</span>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
@@ -164,7 +165,7 @@
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
-                <span class="hourCell"></span>
+                <span class="hourCell">9 AM</span>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
@@ -172,7 +173,7 @@
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
-                <span class="hourCell"></span>
+                <span class="hourCell">10 AM</span>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
@@ -180,7 +181,7 @@
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
-                <span class="hourCell"></span>
+                <span class="hourCell">11 AM</span>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
@@ -188,7 +189,7 @@
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
-                <span class="hourCell"></span>
+                <span class="hourCell">12 PM</span>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
@@ -196,7 +197,7 @@
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
-                <span class="hourCell"></span>
+                <span class="hourCell">1 PM</span>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
@@ -204,7 +205,7 @@
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
-                <span class="hourCell"></span>
+                <span class="hourCell">2 PM</span>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
@@ -212,7 +213,7 @@
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
-                <span class="hourCell"></span>
+                <span class="hourCell">3 PM</span>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
@@ -220,7 +221,7 @@
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
-                <span class="hourCell"></span>
+                <span class="hourCell">4 PM</span>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
@@ -228,7 +229,7 @@
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
-                <span class="hourCell"></span>
+                <span class="hourCell">5 PM</span>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
@@ -236,7 +237,7 @@
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
-                <span class="hourCell"></span>
+                <span class="hourCell">6 PM</span>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
@@ -244,7 +245,7 @@
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
-                <span class="hourCell"></span>
+                <span class="hourCell">7 PM</span>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
@@ -252,7 +253,7 @@
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
-                <span class="hourCell"></span>
+                <span class="hourCell">8 PM</span>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
@@ -260,7 +261,7 @@
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
-                <span class="hourCell"></span>
+                <span class="hourCell">9 PM</span>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
@@ -268,7 +269,15 @@
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
-                <span class="hourCell"></span>
+                <span class="hourCell">10 PM</span>
+                <div class="taskCell"></div>
+                <div class="taskCell"></div>
+                <div class="taskCell"></div>
+                <div class="taskCell"></div>
+                <div class="taskCell"></div>
+                <div class="taskCell"></div>
+                <div class="taskCell"></div>
+                <span class="hourCell">11 PM</span>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
                 <div class="taskCell"></div>
