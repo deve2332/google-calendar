@@ -1,0 +1,45 @@
+.calendarList {
+    max-inline-size: 12.25rem;
+}
+
+.calendarList-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-start: .5rem;
+    padding-inline-end: 0.25rem;
+    padding-block: .5rem;
+    border-radius: 4px;
+    list-style: none;
+    font: var(--body1-medium);
+    user-select: none;
+    cursor: pointer;
+
+}
+
+.calendarList-title:hover,
+.calendarList-title:focus-within {
+    background: var(--gray10);
+    transition: .3s background;
+}
+
+.calendarList-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.calendarList-listItem {
+    padding: 0.5rem;
+
+    border-radius: 0.25rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+.calendarList-listItem:hover {
+    background: var(--gray10);
+    transition: .3s background;
+}
