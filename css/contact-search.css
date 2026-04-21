@@ -1,0 +1,39 @@
+.contactSearch {
+    display: flex;
+    align-items: center;
+    max-inline-size: 12.25rem;
+    position: relative;
+}
+
+.contactSearch i {
+    position: absolute;
+    left: 0.5rem;
+    font-size: 1rem;
+    color: var(--gray30);
+}
+
+.contactSearch:focus-within i {
+    color: var(--gray50);
+}
+
+.contactSearch input {
+    inline-size: 100%;
+    padding-inline-start: 1.8rem;
+    padding-inline-end: .25rem;
+    padding-block: .5rem;
+    border-radius: 4px;
+    border: none;
+    background: var(--gray10);
+    color: var(--gray50);
+    font: var(--body1-regular);
+}
+
+
+
+.contactSearch input::placeholder {
+    color: var(--gray30);
+}
+
+.contactSearch input:focus {
+    outline: 1px solid var(--gray20);
+}

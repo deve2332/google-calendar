@@ -117,13 +117,17 @@
                 </div>
 
             </div>
-            <div class="calendarList">
+            <form class="contactSearch" aria-label="Buscar personas">
+                <i class="icon-users"></i>
+                <input type="search" name="search" id="search" placeholder="Buscar personas">
+            </form>
+            <div class="calendarList" aria-label="Lista mis calendarios">
                 <details class="calendarList-dropdown" open>
                     <summary class="calendarList-title">
                         <span>Mis calendarios</span>
                         <i class="icon-chevron-up"></i>
                     </summary>
-                    <ul class="calendarList-list" aria-label="Lista de mis calendarios">
+                    <ul class="calendarList-list">
                         <li class="calendarList-listItem">
                             <i class="icon-check-square" aria-hidden="true"></i>
                             <span>Jorge Santafe</span>
@@ -139,13 +143,13 @@
                     </ul>
                 </details>
             </div>
-            <div class="calendarList">
+            <div class="calendarList" aria-label="Lista otros calendarios">
                 <details class="calendarList-dropdown" open>
                     <summary class="calendarList-title">
                         <span>Otros calendarios</span>
                         <i class="icon-chevron-up"></i>
                     </summary>
-                    <ul class="calendarList-list" aria-label="Lista de otros calendarios">
+                    <ul class="calendarList-list">
                         <li class="calendarList-listItem">
                             <i class="icon-check" aria-hidden="true"></i>
                             <span>Días feriados en Colombia</span>
