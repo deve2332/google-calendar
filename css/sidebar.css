@@ -1,3 +1,13 @@
 @import './mini-calendar.css';
 @import './contact-search.css';
 @import './calendar-list.css';
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-inline: 1.5rem;
+    align-items: flex-start;
+    position: fixed;
+    top: 5.5rem;
+}

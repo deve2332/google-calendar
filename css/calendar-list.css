@@ -1,8 +1,12 @@
 .calendarList {
-    max-inline-size: 12.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    inline-size: 12.25rem;
 }
 
 .calendarList-title {
+    inline-size: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,7 +18,7 @@
     font: var(--body1-medium);
     user-select: none;
     cursor: pointer;
-
+    box-sizing: border-box;
 }
 
 .calendarList-title:hover,
@@ -31,7 +35,6 @@
 
 .calendarList-listItem {
     padding: 0.5rem;
-
     border-radius: 0.25rem;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -40,6 +43,6 @@
 
 
 .calendarList-listItem:hover {
-    background: var(--gray10);
+    background: rgba(241, 243, 244, .7);
     transition: .3s background;
 }
