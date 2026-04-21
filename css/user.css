@@ -1,0 +1,24 @@
+.cover-user {
+    inline-size: 2rem;
+    block-size: 2rem;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 0px 0px 0px var(--gray10);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.cover-user img {
+    inline-size: 100%;
+    aspect-ratio: 1;
+
+}
+
+.cover-user:hover,
+.cover-user:focus-within {
+    box-shadow: 0px 0px 0px 4px var(--gray10);
+}
+
+.cover-user:focus-within {
+    outline: none;
+
+}
