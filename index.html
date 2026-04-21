@@ -442,7 +442,51 @@
         </main>
     </div>
     <dialog class="modal">
-        <form action=""></form>
+        <form action="" class="createTask">
+            <div class="input is-outstanding">
+                <div class="input-body">
+                    <input type="text" name="title" id="title" required placeholder="Añade un título">
+                </div>
+            </div>
+
+            <div class="input">
+                <i class="icon-clock" aria-hidden="true"></i>
+                <div class="input-body">
+                    <input type="date" name="date" id="date">
+                    <input type="time" name="time-start" id="time-start">
+                    <input type="time" name="time-end" id="time-end">
+                </div>
+            </div>
+            <div class="input">
+                <i class="icon-users" aria-hidden="true"></i>
+                <div class="input-body">
+                    <input type="text" list="guests" name="guests" id="guest-input" placeholder="Agregar invitados"
+                        required>
+                    <datalist id="guests">
+                        <option value="Juan"></option>
+                        <option value="Ana"></option>
+                        <option value="Maria"></option>
+                        <option value="Jorge"></option>
+                    </datalist>
+                </div>
+            </div>
+            <div class="input">
+                <i class="icon-gps" aria-hidden="tue"></i>
+                <div class="input-body">
+                    <input type="text" name="location" id="location" placeholder="Agregar lugar">
+                </div>
+            </div>
+            <div class="input">
+                <i class="icon-text" aria-hidden="true"></i>
+                <input type="text" name="description" id="description" placeholder="Agregar descripción">
+            </div>
+            <div class="input">
+                <i class="icon-check" aria-hidden="true"></i>
+                <div class="input-body">
+                    <input type="file" name="file" id="file" multiple>
+                </div>
+            </div>
+        </form>
         <div class="modal-actions">
             <button class="button ">Cancelar</button>
             <button class="button is-primary">Guardar</button>

@@ -1,3 +1,6 @@
+@import './input.css';
+@import './create-task.css';
+
 .modal[open] {
     display: flex;
 }
@@ -10,6 +13,8 @@
     margin: initial;
     border-radius: .25rem;
     border: none;
+    padding-inline: 3rem;
+    padding-block: 1.5rem;
     outline: none;
     position: absolute;
     top: 200px;
